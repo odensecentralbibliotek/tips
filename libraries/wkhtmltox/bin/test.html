@@ -1,0 +1,81 @@
+<head>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="/tips/js/tips.js"></script>
+        <title>Tip en 13'er</title>
+        <style>
+            .tips-boks
+            {
+                border: 1px solid black !important;
+                text-align: center;
+            }
+            .tips-boks:hover
+            {
+                cursor: pointer;
+            }
+            .tips-boks-header
+            {
+                border-bottom: 1px solid black !important;
+            }
+            .table-wrap
+            {
+                margin-left: 33%;
+                margin-right: 33%;
+            }
+        </style>
+   </head>
+    <body>
+        <div class="table-wrap">
+            <div id="data-container">
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <th class="col-md-9">Tip en 13'er</th>
+                            <th class="col-md-1 text-center">1</th>
+                            <th class="col-md-1 text-center">x</th>
+                            <th class="col-md-1 text-center">2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="rowgroup"> English speakers </th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th class="col-md-9" >1</th>
+                            <td class="col-md-1 tips-boks"></td>
+                            <td class="col-md-1 tips-boks"><img class="img-x" src="/tips/img/Black_x.svg" style="width: 20px; height: 20px;"></td>
+                            <td class="col-md-1 tips-boks"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div id="SubmitForm" style="padding-top: 20px;">
+                <form action="/tips/" method="POST">
+                    <div class="form-group">
+                        <label for="navn">Navn:</label>
+                        <input class="form-control" placeholder="Navn" name="navn" id="navn" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input class="form-control" placeholder="Email" name="email" id="email" type="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefon">Telefon:</label>
+                        <input class="form-control" placeholder="Telefon" name="telefon" id="telefon" type="tel">
+                    </div>                   
+                    <input name="pdfdata" id="pdfdata" type="hidden">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+
+    
+
+
+
+</body>

@@ -1,0 +1,29 @@
+tbody
+{
+    page-break-inside: avoid;
+}
+.table-wrap
+{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+#SubmitForm
+{
+    //display:none;
+}
+thead{
+    display:none;
+
+}
+thead:first-child{
+    display: table-row-group;
+}
+.pdf_print_name , .pdf_print_email
+{
+    display: block !important;
+    width:100%;
+}   
+body
+{
+    background-color: white !important;
+}
