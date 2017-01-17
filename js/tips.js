@@ -18,8 +18,8 @@ $( document ).ready(function() {
         var imgElem = $('<img />');
         imgElem.toggleClass('img-x');
         imgElem.attr('src','http://tip13.fynbib.dk/img/Black_x.svg');
-        imgElem.css('width','20px');
-        imgElem.css('height','20px');
+        imgElem.css('max-width','20px');
+        imgElem.css('max-height','20px');
         Target.append(imgElem);
         
     }); 
@@ -30,7 +30,9 @@ $( document ).ready(function() {
         $(PdfData).find('script').remove();
         var name = $('#navn').val(); 
         var email = $('#email').val(); 
-        $(PdfData).find('.pdf_print_name').text(name);
+        var afdeling = $('#afdeling').val();
+	$(PdfData).find('.pdf_print_name').text(name);
+	$(PdfData).find('.pdf_print_afdeling').text(afdeling);
         $(PdfData).find('.pdf_print_email').empty().append($('<a>'+email+'</a>').attr('href',"mailto:"+email));
         
         var tmp = PdfData.html();

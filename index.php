@@ -1,10 +1,12 @@
 <?php
 include("app.php");
 ?>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="http://tip13.fynbib.dk/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="print" href="http://tip13.fynbib.dk/css/print.css">
         <script src="http://tip13.fynbib.dk/js/jquery-3.1.1.min.js"></script>
         <script src="http://tip13.fynbib.dk/js/jquery.cookie.min.js"></script>
         <script src="http://tip13.fynbib.dk/js/bootstrap.min.js"></script>
@@ -59,7 +61,7 @@ include("app.php");
                 display:none;
                 text-align: center;
             } 
-            .pdf_print_name , .pdf_print_email
+            .pdf_print_name , .pdf_print_email, .pdf_print_afdeling
             {
                 display:none;
             }
@@ -277,21 +279,18 @@ include("app.php");
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">x. Vand, klor og sæbe </th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
-                            <th class="col-md-9 tips-choice">2. Vand, klor og slat</th>
+                            <th class="col-md-9 tips-choice">2. Vand, klor og salt</th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
-                            
                         </tr>
                     </tbody>
                      <!--
@@ -312,21 +311,18 @@ include("app.php");
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
-                            <th class="col-md-9 tips-choice">x. Eksterne aktør </th>
+                            <th class="col-md-9 tips-choice">x. Eksterne aktører </th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">2. Teknisk personale med kridt og snor</th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
-                            
                         </tr>
                     </tbody>
                      <!--
@@ -347,21 +343,18 @@ include("app.php");
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">x. Odense Slot og Odense Idrætspark </th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">2. Odense Slot og Ørbækvej 100</th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
-                            
                         </tr>
                     </tbody>
                      <!--
@@ -382,21 +375,18 @@ include("app.php");
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
-                            <th class="col-md-9 tips-choice">x. Borgerservice, Hovedbibliotek, Center for Civilsamfund og Center for frivillighed</th>
+                            <th class="col-md-9 tips-choice">x. Borgerservice, Hovedbiblioteket, Center for Civilsamfund og Center for frivillighed</th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">2. Hovedbiblioteket, Folkeoplysningsforbundene og Borgerservice</th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
-                            
                         </tr>
                     </tbody>
                      <!--
@@ -417,21 +407,18 @@ include("app.php");
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">x. Hockey og styrtløb </th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">2. Curling og lifting</th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
-                            
                         </tr>
                     </tbody>
                      <!--
@@ -452,21 +439,18 @@ include("app.php");
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">x. Nej, foreningerne skal selv finde lokaler, arealer m.v. </th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">2. Fritid og Eliteidræt er forpligtet til at stille egnede ledige lokaler til rådighed.</th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
-                            
                         </tr>
                     </tbody>
                      <!--
@@ -487,21 +471,18 @@ include("app.php");
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">x. Give vejledning til personer, der er interesserede i at skrive sig op til civilforsvaret </th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
-                            <th class="col-md-9 tips-choice">2. Give én samlte indgang for frivillige til kommunen mange forvaltninger</th>
+                            <th class="col-md-9 tips-choice">2. Give én samlet indgang for frivillige til kommunens mange forvaltninger</th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
-                            
                         </tr>
                     </tbody>
                      <!--
@@ -522,21 +503,18 @@ include("app.php");
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">x. 93 år </th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
                             <td class="col-md-1 tips-boks"></td>
-                            
                         </tr>
                         <tr>
                             <th class="col-md-9 tips-choice">2. 83 år</th>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks"></td>
                             <td class="col-md-1 tips-boks click-enabled"></td>
-                            
                         </tr>
                     </tbody>
                      <!--
@@ -546,21 +524,27 @@ include("app.php");
 
             </div>
             <div class="pdf_print_name" >Name</div>
+	    <div class="pdf_print_afdeling" >Afdeling</div>
             <div class="pdf_print_email">Email</div>
             <div id="SubmitForm" style="padding-top: 20px;">
                 <form action="/" method="POST">
                     <div class="form-group">
                         <label for="navn">Navn:</label>
-                        <input class="form-control" type="text" placeholder="Navn" name="navn" id="navn" required="true"/>
+                        <input class="form-control" type="text" placeholder="Indtast navn" name="navn" id="navn" required="true"/>
                     </div>
                     <div class="form-group">
+                        <label for="afdeling">Afdeling:</label>
+                        <input class="form-control" type="text" placeholder="Indtast afdeling" name="afdeling" id="afdeling" />
+                    </div>
+
+                    <div class="form-group">
                         <label for="email">Email:</label>
-                        <input class="form-control"type="email" placeholder="Email" name="email" id="email" required="true"/>
+                        <input class="form-control" type="email" placeholder="Indtast email" name="email" id="email" required="true"/>
                     </div>
                     <!--<div class="form-group">
                         <label for="telefon">Telefon:</label>
                         <input class="form-control" type="tel" placeholder="Telefon" name="telefon" id="telefon"/>
-                    </div>    -->               
+                    </div>    -->
                     <input type="hidden" name="pdfdata" id="pdfdata" />
                     <button type="submit" class="btn btn-primary">Send</button>
                 </form>

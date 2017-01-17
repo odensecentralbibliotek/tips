@@ -18,7 +18,7 @@ thead{
 thead:first-child{
     display: table-row-group;
 }
-.pdf_print_name , .pdf_print_email
+.pdf_print_name , .pdf_print_email, .pdf_print_afdeling
 {
     display: block !important;
     width:100%;
